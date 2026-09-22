@@ -1,0 +1,20 @@
+package Scanner programs;
+import java.util.Scanner
+public class Simpleinterest 
+{
+    public static void main(String[]args)
+
+        {
+            Scanner sc=new Scanner(System.in);
+            System.out.println("enter principal amount:");
+            double p=sc.next Double();
+            System.out.println("enter rate of interset:");
+            double r=sc.next Double();
+            System.out.println("enter time in year:");
+             double t=sc.next Double();
+             double si=(p*t*r)/100;
+             System.out.println("principal amount:"+p);
+             System.out.println("Total interset:"+si);
+             System.out.println(Total amount:"+(p+si));
+             }
+}
